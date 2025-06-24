@@ -30,10 +30,11 @@ h1 {
 
 h2 {
     font-family: "knockout";
-    color: #ffffff !important;
+    color: #FCF5EA !important;
     font-weight: 500 !important;
     font-size: calc(1.325rem + 0.9vw);
     text-transform: uppercase;
+    margin-bottom: 0;
     padding-top: 0px;
     text-align: center;
     margin-top: 30px;
