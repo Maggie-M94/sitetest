@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="149" height="91" viewBox="0 0 149 91">
+  <g id="leaderboard-btn" transform="translate(-292 -280)">
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="149" height="91" transform="translate(292 280)" fill="#00569d"/>
+    <g id="Group_362" data-name="Group 362" transform="translate(-400.746 8.42)">
+      <rect id="Rectangle_89" data-name="Rectangle 89" width="19" height="36" transform="translate(734.746 307.58)" fill="#00569d"/>
+      <path id="Rectangle_89_-_Outline" data-name="Rectangle 89 - Outline" d="M2.848,2.848V32.756H17.09V2.848H2.848M0,0H19.938V35.6H0Z" transform="translate(733.672 307.615)" fill="#fff"/>
+      <rect id="Rectangle_90" data-name="Rectangle 90" width="19" height="58" transform="translate(758.746 285.58)" fill="#00569d"/>
+      <path id="Rectangle_90_-_Outline" data-name="Rectangle 90 - Outline" d="M2.848,2.848v51.27H17.09V2.848H2.848M0,0H19.938V56.967H0Z" transform="translate(757.883 286.252)" fill="#fff"/>
+      <rect id="Rectangle_91" data-name="Rectangle 91" width="19" height="47" transform="translate(782.746 296.58)" fill="#00569d"/>
+      <path id="Rectangle_91_-_Outline" data-name="Rectangle 91 - Outline" d="M2.848,2.848v41.3H17.09V2.848H2.848M0,0H19.938V47H0Z" transform="translate(782.094 296.221)" fill="#fff"/>
+      <rect id="Rectangle_92" data-name="Rectangle 92" width="91" height="13" transform="translate(721.746 336.58)" fill="#00569d"/>
+      <path id="Rectangle_92_-_Outline" data-name="Rectangle 92 - Outline" d="M2.848,2.848V9.969H86.874V2.848H2.848M0,0H89.723V12.818H0Z" transform="translate(722.279 336.098)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
