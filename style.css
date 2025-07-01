@@ -970,6 +970,7 @@ table#leaderboard.table {
 .highlight-row,
 .highlight-row td {
     background-color: transparent !important;
+    border: 2px solid #ffffff;
     color: white !important;
     font-weight: bold;
     border-radius: 5px;
