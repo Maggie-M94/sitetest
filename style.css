@@ -960,7 +960,7 @@ hr.divider {
     padding-bottom: 0vh;
 
     /* background-image: linear-gradient(180deg, rgb(32, 85, 39) 0%, rgba(0, 0, 0, 255) 100%); */
-    min-height: 100vh;
+    min-height: 96vh;
 }
 
 .content-background::before {
