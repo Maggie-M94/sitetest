@@ -14,7 +14,7 @@ h1 {
     font-weight: 400 !important;
     font-size: calc(1.4rem + 1.7vw);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     padding-bottom: 0;
     padding-top: 0;
 }
@@ -332,9 +332,9 @@ input[type="tel"].input-date::-webkit-input-placeholder {
         opacity: 1 !important;
     }
 
-    h1 {
+    /* h1 {
         margin-top: 50px;
-    }
+    } */
 }
 
 /* Large mobile rules */
@@ -434,7 +434,7 @@ a:active {
 /* general layout */
 section.background-theme {
     position: relative;
-    padding: 55px 0 120px;
+    padding: 5px 0 120px;
     overflow: hidden;
     z-index: 1;
 }
@@ -496,6 +496,7 @@ section.background-theme > .container-fluid {
 
 body {
     z-index: 1;
+    min-height: 80vh;
     background-color: #000000;
 }
 
