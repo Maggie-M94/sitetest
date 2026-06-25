@@ -332,9 +332,9 @@ input[type="tel"].input-date::-webkit-input-placeholder {
         opacity: 1 !important;
     }
 
-    /* h1 {
+    .pd {
         margin-top: 50px;
-    } */
+    }
 }
 
 /* Large mobile rules */
