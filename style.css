@@ -107,7 +107,7 @@ span {
     outline: none;
     border: 0px none;
     border-style: none !important;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .btn-primary:active,
