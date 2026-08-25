@@ -354,7 +354,7 @@ section.footer {
 
     .background {
         background-image: url(assets/mobile-background.png);
-        min-height: 90vh;
+        min-height: 70vh;
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
@@ -375,7 +375,10 @@ section.footer {
 
     /* Leaderboard */
     .leaderboard {
-        padding: 18px 20px;
+        padding-top: 20px; 
+        padding-bottom: 20px;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
     }
 
     .leader-row {
@@ -443,7 +446,10 @@ section.footer {
 
 .leaderboard {
     background: #00437B;
-    padding: 30px 38px 22px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     color: #fff;
     border-radius: 20px;
 }
@@ -466,7 +472,6 @@ section.footer {
 .leader-row {
     display: flex;
     align-items: center;
-    margin-bottom: 21px;
 }
 
 .leader-name-wrap {
@@ -510,7 +515,7 @@ section.footer {
     white-space: nowrap;
 }
 
-span-alt {
+span-alt{
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -553,7 +558,7 @@ span-alt {
 
     .background {
         background-image: url(assets/mobile-background.png);
-        min-height: 90vh;
+        min-height: 70vh;
         background-repeat: no-repeat;
         background-position: center top;
         background-size: cover;
@@ -565,35 +570,31 @@ span-alt {
     }
 
     .leaderboard-title {
-        gap: 7px;
         margin-bottom: 20px;
     }
 
-    .leaderboard-title .flag-icon img {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 !important;
-        padding: 0 !important;
-        flex-shrink: 0;
+    .flag-icon {
+        width: 32px;
     }
 
     .leaderboard-title h2 {
         font-size: 24px;
     }
 
-    .flag-icon {
-        width: 45px;
-        height: auto;
-        display: block;
-        flex-shrink: 0;
+    .flag-col,
+    .heading-col {
+        padding-left: 3px;
+        padding-right: 3px;
     }
 }
 
 @media (max-width: 768px) {
     /* Leaderboard */
     .leaderboard {
-        padding: 18px 20px;
+        padding-top: 20px; 
+        padding-bottom: 20px;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
     }
 
     .leader-row {
@@ -672,7 +673,7 @@ a:active {
 
 /* general layout */
 .body-content {
-    min-height: 58vh;
+    min-height: 70vh;
     overflow: hidden;
     display: block;
     padding-bottom: 10vh !important;
@@ -702,43 +703,35 @@ hr {
 
 body {
     background-color: var(--color-primary);
-    min-height: 90vh;
+    min-height: 70vh;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
 }
 
 .leaderboard-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
     margin-bottom: 25px;
 }
 
-.leaderboard-title h2 {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1 !important;
+.flag-col,
+.heading-col {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.leaderboard-title .flag-icon {
-    margin: 0 !important;
-    padding: 0 !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.leaderboard-title .flag-icon img {
+.flag-icon {
     width: 45px;
     height: auto;
     display: block;
 }
 
-#logo {
+.leaderboard-title h2 {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1;
+}
+
+#logo{
     padding-top: 50px;
     padding-bottom: 40px;
 }
