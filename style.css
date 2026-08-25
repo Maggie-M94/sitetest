@@ -188,7 +188,7 @@ select.form-control:active {
     padding-bottom: 0.8vh;
     margin: 0px;
     color: var(--color-dark) !important;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--color-light);
     padding-top: 0.8vh;
     min-height: 4vh;
