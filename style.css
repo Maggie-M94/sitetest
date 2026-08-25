@@ -675,7 +675,7 @@ a:active {
     min-height: 58vh;
     overflow: hidden;
     display: block;
-    padding-bottom: 10vh;
+    padding-bottom: 10vh !important;
 }
 
 hr {
