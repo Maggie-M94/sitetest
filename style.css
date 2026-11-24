@@ -108,7 +108,7 @@ span-alt {
     font-size: 1.6em;
     margin-top: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     font-family: "ReginaBlack";
     text-transform: uppercase;
     outline: none;
@@ -230,13 +230,12 @@ input::-webkit-calendar-picker-indicator {
     width: 100%;
     min-height: 5vh;
     background-color: #ffffff;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
 }
 
 ::file-selector-button {
     font-family: "HelveticaRegular";
-    border: 2px solid var(--color-light);
+    border: 0px solid #ffffff;
     color: #ffffff;
     min-height: 5vh;
     padding: 0.8vh 2vw;
